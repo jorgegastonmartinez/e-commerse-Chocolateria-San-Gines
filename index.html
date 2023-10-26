@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>San Gines Argentina | Inicio</title>
+  <meta name="description" content="Churros, porras y chocolate">
+  <meta name="keywords" content="Churros, Porras, Chocolate, Madrid, Argentina, Buenos Aires, San Ginés, Madrileños, Español, Pasaje San Gines, Puerta del sol, Mercado de los carruajes, Gastronomía">
+  <link rel="shortcut icon" href="./img/favicon-logotipo-san-gines.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/estilo.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <header>  
+    <div class="header-top">
+      <div class="header-top__left"> 
+        <img src="./img/spainFlag.jpg" width="50" alt="Bandera de España">
+        <img src="./img/argentinaFlag.jpg" width="50" alt="Bandera de Argentina">
+        <img src="./img/mexicoFlag.jpg" width="50" alt="Bandera de Mexico">
+        <img src="./img/estadosUnidosFlag.jpg" width="50" alt="Bandera de Estados Unidos">
+        <img src="./img/japonFlag.jpg" width="50" alt="Bandera de Japon">
+      </div>
+      <div class="header-top__right">
+        <a href="./pages/checkOut.html" class="cart-icon">
+          <i class="bi bi-cart4"></i>
+        </a>
+        <a href="https://www.instagram.com/sanginesargentina/" class="instagram-icon" target="_blank">
+          <img src="./img/instagram.png" width="32" alt="logo de instagram">
+        </a>
+        <a href ="https://www.facebook.com/SanGinesArgentina?_rdc=1&_rdr" class="facebook-icon" target="_blank">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/chocolatería-san-ginés-argentina?trk=similar-pages" class="linkedin-icon" target="_blank">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="./index.html">
+        <img src="./img/logotipo-san-gines.png" alt="Logotipo San Ginés">  
+      </a>         
+      <button class="nav__open" id="abrir"><i class="bi bi-list"></i></button>   
+      <div class="nav__hamburger" id="navburger">
+      <button class="nav__close" id="cerrar">
+        <i class="bi bi-x-circle"></i>
+      </button>
+      <ul class="nav__ul">
+          <li>
+            <a href="./index.html">INICIO</a> 
+          </li>
+          <li>
+            <a href="./pages/menu.html">MENU</a>
+          </li>
+          <li> 
+            <a href="#suscripcion">SUSCRIBITE</a>
+          </li>
+          <li>
+            <a href="./pages/contacto.html">CONTACTO</a>
+          </li>
+          <li>
+            <a href="./pages/tiendaonline.html">TIENDA</a>
+          </li>
+          <li>
+            <a href="./pages/ingresar.html">INGRESAR</a>
+          </li>
+          <li>
+            <a href="./pages/registrarse.html">REGISTRARSE</a>
+          </li>
+        </ul>
+      </div>       
+    </nav>
+  </header>
+  <main>   
+    <section class="principal">      
+       <img src="./img/SG-Principal-1.jpg" alt="Circulo logo San Ginés">
+    </section> 
+    <section>
+      <div class="madrid">
+        <h1 class="madrid__title">DESDE MADRID A BUENOS AIRES</h1>
+        <div class="madrid__img">
+          <img src="./img/mural_bajo-arco-san-gines.jpg" alt="imagen mural bajo el arco">
+        </div>
+        <p class="madrid__text">La tradicional chocolatería de San Ginés situada a medio camino entre la Puerta del Sol y el Teatro Real, en pleno centro de Madrid, es una de las chocolaterías más antiguas de la capital española. Fundada en 1894 fue conocida durante la Segunda República como «la escondida» por su particular ubicación en el pasadizo de San Ginés, un callejón apartado de todo el bullicio. Ahora llegamos a Buenos Aires para empezar a contar la historia del otro lado del Atlántico.</p>
+      </div>           
+    </section>
+     <!-- contador que voy a realizar con base de datos -->
+    <section class="counter">        
+      <div class="taza">
+        <h3>70M</h3>
+        <img src="./img/imgCounter6.png" width="150px" alt="Taza con chocolate">
+        <p>TAZAS DE CHOCOLATE</p>
+      </div>
+      <div class="churro">
+        <h3>900M</h3>
+        <img src="./img/imgCounter1.png" width="100px" alt="Churros">
+        <p>CHURROS VENDIDOS</p>
+      </div>
+      <div class="calendar">
+        <h3>129</h3>
+        <div class="calendar__img"> 
+          <i class="bi bi-calendar"></i>
+        </div>
+        <p>AÑOS DE HISTORIA</p>
+      </div>           
+      <div class="followers">
+        <h3>40M</h3>
+        <img src="./img/instagram-2-1.svg" width="60px" alt="Logo de Instagram">
+        <p>INSTAGRAM FOLLOWERS</p>
+      </div>
+    </section>        
+    <!-- section extraida desde bootstrap -->
+    <section>     
+      <div class="buenos-aires">
+        <h2 class="buenos-aires__title">SAN GINÉS POR BUENOS AIRES</h2>
+        <div id="carouselExampleAutoplaying" class="carousel slide buenos-aires__carrousell-edit" data-bs-ride="carousel">
+          <div class="carousel-inner lpm">
+            <div class="carousel-item active">
+              <img src="./img/san_gines_por_bs_as.jpg" class="d-block w-100" alt="Cono de churros en el obelisco">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/san_gines_por_bs_as2.jpg" class="d-block w-100" alt="Cono de churros en la plaza Sarmiento">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/san_gines_por_bs_as3.jpg" class="d-block w-100" alt="Cono de churros en una terraza por Recoleta">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <p class="buenos-aires__text">De los creadores de momentos y experiencias inolvidables y únicas a través del mundo 🌍 llega #SanGinés. 🍫☕ 👉🏼Una tradición que te acompaña desde hace 129 años. 💘 👉🏼Pasión, tradición, experiencias y explosiones de sabores en tu boca, todo eso te vamos a generar. 💥💣 ¿Salís a recorrer la city con un cono?</p>      
+      </div>
+    </section>
+    <article class="frase-inspiradora">
+      <h3>Si eres un amante de los churros con chocolate no dejes de vicitar la Chocolatería San Ginés.</h3>
+    </article>
+    <section>
+      <div>
+        <h2 class="gineses-title">NUESTROS SAN GINESES</h2>
+        <p class="gineses-text">Mirá nuestra carta y tentate con nuestra propuesta de chocolate con churros y porras. Y si estas con ganas de algo salado tenemos ensaladas, bocatas, tostados y más. Descubrilos!</p>
+      </div>        
+      <div class="gallery">
+        <img class="gineses gallery__img1" src="./img/img-gallery-1.JPG" alt="Bocata de jamón, churros, chocolate y café con leche">
+        <img class="gineses gallery__img2" src="./img/img-gallery-2.jpg" alt="Arte latte">
+        <img class="gineses gallery__img3" src="./img/img-gallery-3.JPG" alt="Café con leche y tostado de jamón y queso">
+        <img class="gineses gallery__img4" src="./img/img-gallery-4.jpg" alt="Ensalada vegetariana, ensalada de pollo y ensalada de atún">
+        <img class="gineses gallery__img5" src="./img/img-gallery-5.jpg" alt="Varios Cafés con arte latte">
+        <img class="gineses gallery__img6" src="./img/img-gallery-6.jpg" alt="Frappuccino de chocolate San Ginés">
+      </div>        
+      <div class="gineses-button">
+        <a class="button__menu" href="./pages/menu.html">MENU</a>
+      </div>         
+    </section>
+    <section id="suscripcion" class="suscribirme"> 
+      <h4>No te pierdas la oportunidad de recibir todas las promociones y novedades de la chocolatería San Ginés</h4>
+      <form action="">
+        <div class="form-suscribirme">    
+          <input class="form-suscribirme__email" type="email" placeholder="Email" required>
+          <input class="form-suscribirme__button" type="submit" value="SUSCRIBIRME">
+        </div>
+      </form>
+    </section>
+    <section>
+      <div class="fondo-chocolate"> 
+        <img src="./img/Fondo-de-Chocolateria-San-Gines-Chocolate-caliente-con-churros-en-Buenos-Aires-scaled.jpg" alt="Fondo de chocolatería San Ginés con logo">
+      </div>         
+    </section>
+             <!--iframe google maps -->
+    <section>     
+      <h2 class="maps-title">NUESTROS LOCALES</h2>
+      <div class="maps">
+        <div class="maps__mercado">             
+          <p>
+            <i class="bi bi-geo-alt-fill"></i>Mercado de los carruajes | Av. Leandro N Alem 852 | CABA
+          </p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2514048804283!2d-58.374598923552085!3d-34.59780375718703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb81e9d534f7%3A0xd8df9ede88b4b2b2!2sChocolater%C3%ADa%20San%20Gin%C3%A9s%20%7C%20Churros%20San%20Gin%C3%A9s%20en%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1687841520994!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
+        </div>
+        <div class="maps__belgrano">
+          <p>
+            <i class="bi bi-geo-alt-fill"></i>Belgrano | Av. Del Libertador 6651| CABA
+          </p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.4798625818036!2d-58.44956153036365!3d-34.555594793808616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb432e0fe4a7d%3A0x787b54415fb964da!2sAv.%20del%20Libertador%206116%2C%20C1428ARR%20CABA!5e0!3m2!1ses!2sar!4v1687842060244!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
+        </div>
+      </div>           
+    </section>
+  </main>
+  <footer>     
+    <section class="footer">
+      <div class="nuestros-datos">
+        <h2>NUESTROS DATOS</h2>   
+        <div class="contenedor-imgLogo">
+          <img src="./img/logotipo-san-gines.png" alt="logo san gines">
+        </div>       
+        <div class="footer-links">
+          <a href ="https://www.facebook.com/SanGinesArgentina?_rdc=1&_rdr" class="facebook-icon" target="_blank">
+            <i class="bi bi-facebook"></i>
+          </a>
+         <a href="https://www.instagram.com/sanginesargentina/" class="instagram-icon" target="_blank">
+          <img src="./img/instagramIcon.png" alt="logo de intagram">
+          </a>
+         <a href="https://www.linkedin.com/company/chocolatería-san-ginés-argentina?trk=similar-pages" class="linkedin-icon" target="_blank">
+          <i class="bi bi-linkedin"></i>
+          </a>
+       </div>
+       <div class="footer-email">
+        <a href="mailto:hola@sangines.com.ar">
+          <i class="bi bi-envelope-at"></i>hola@sangines.com.ar
+        </a>  
+       </div>
+      </div>
+      <div class="footer__contactanos">
+        <h2>CONTACTÁNOS</h2>
+        <form class="footer__contactanos-form">              
+          <input type="nombre" placeholder="Nombre" required> 
+          <input type="apellido" placeholder="Apellido" required> 
+          <input type="email" placeholder="Email" required>
+          <textarea name="" id="" cols="30" rows="5" placeholder="Dejanos tu Comentario" required></textarea>        
+          <div>
+            <input class="contactanos-form__button" type="submit" value="Enviar">
+            <input class="contactanos-form__button" type="reset" value="Resetear"> 
+          </div> 
+        </form>
+      </div>
+    </section>
+    <section>
+      <div class="copyright">
+        <p>© Copyright 2023 | Chocolatería San Ginés | Todos los derechos reservados | Jorge Gastón Martinez | <a href="./pages/politicasPrivacidad.html">POLÍTICAS DE PRIVACIDAD</a> | <a href="./pages/politicasCookies.html">POLÍTICAS DE COOKIES</a>
+        </p>
+      </div>
+    </section>
+  </footer>
+  <!-- archivos javaScript -->
+    <script src="./js/main.js"></script>
+    <script src="../js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

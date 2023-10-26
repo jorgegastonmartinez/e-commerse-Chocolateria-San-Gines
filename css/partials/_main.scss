@@ -1,0 +1,257 @@
+.madrid {
+    padding: 5rem;
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 0.2fr 1fr;
+    grid-template-areas: 
+     "madrid__title  madrid__title" 
+     "madrid__text   madrid__img";  
+ 
+    .madrid__title {
+        grid-area: madrid__title;
+        text-align: center;
+        padding: 5rem 0 5rem 0;
+    }
+
+    .madrid__text {
+        grid-area: madrid__text;
+        text-align: center;
+        padding: 3rem;
+        letter-spacing: 2px;
+        line-height: 1.5;
+    }
+
+    .madrid__img {
+        grid-area: madrid__img;
+        display: flex;
+    }
+
+    .madrid__img {
+
+        & img {
+        width: 100%;  
+        align-items: center;
+        object-fit: cover;
+        }
+    }
+}
+
+.counter {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: $secondarycolor;
+    padding: 5rem;
+
+    .taza,
+    .churro,
+    .calendar,
+    .followers {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .calendar {
+
+        .calendar__img {
+            font-size: 4rem;
+        }
+    }
+}
+
+.buenos-aires {
+    padding: 10rem 5rem;
+    display: grid;
+    column-gap: 3rem;
+    grid-template-columns: .75fr 1fr;
+    grid-template-areas: 
+     "carrousell-edit    buenos-aires__title" 
+     "carrousell-edit    buenos-aires__text";
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+
+    .buenos-aires__carrousell-edit {
+        max-width: 35rem;
+        min-width: 20rem;
+        grid-area: carrousell-edit;
+    }
+
+    .buenos-aires__title {
+        grid-area: buenos-aires__title;
+        text-align: center;
+        align-self: self-end;
+        padding: 0 5rem 5rem 5rem;
+    }
+
+    .buenos-aires__text {
+        grid-area: buenos-aires__text;
+        text-align: center; 
+        letter-spacing: 2px;
+        line-height: 1.5;
+        align-self: baseline;
+    }
+}
+
+.frase-inspiradora {
+    background-color: $secondarycolor;
+    background-image: url(../img/backgroundImg.jpg);
+    padding: 5rem;
+
+    h3 {
+        text-align: center;
+        font-style: italic; 
+        font-size: 2rem;
+        color: white;
+    }
+}
+
+.gineses-title {
+    text-align: center;
+    padding-top: 8rem;
+}
+.gineses-text {
+    text-align: center;
+    padding: 5rem 20rem 0 20rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "gallery__img1  gallery__img2  gallery__img3"
+    "gallery__img4  gallery__img5  gallery__img6";
+    padding: 5rem;
+    grid-gap: 3rem;
+
+    .gineses {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    .gallery__img1 {
+        grid-area: gallery__img1;
+    }
+    .gallery__img2 {
+        grid-area: gallery__img2;
+    }
+    .gallery__img3 {
+        grid-area: gallery__img3;
+    }
+    .gallery__img4 {
+        grid-area: gallery__img4;  
+    }
+    .gallery__img5 {
+        grid-area: gallery__img5;  
+    }
+    .gallery__img6 {
+        grid-area: gallery__img6;   
+    }
+}
+.gineses-button {
+    text-align: center;
+    padding-bottom: 10rem;
+
+    .button__menu {
+        background-color: $chocolatecolor;
+        color: white;
+        padding: 1rem;
+        border: none;
+        font-size: 1.5rem;
+        border-radius: 5px;
+
+        &:active {
+            background-color: white;
+            color: $chocolatecolor;
+        }
+    }
+}
+
+.suscribirme {
+    background-color: $secondarycolor;
+    text-align: center;
+    padding: 2rem;
+
+    h4 {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .form-suscribirme {
+        text-align: center;
+
+        .form-suscribirme__email {
+            background-color: $bodycolor;
+            padding: .5rem;
+            border: none;
+            font-size: 1rem;
+            border-radius: 5px;
+            margin-right: 1rem;
+            width: 30rem;
+        }
+
+        .form-suscribirme__button {
+            background-color: $chocolatecolor;
+            color: white;
+            padding: .5rem;
+            border: none;
+            font-size: 1rem;
+            border-radius: 5px;
+
+            &:active {
+                background-color: white;
+                color: $chocolatecolor;
+            }
+        }
+    }
+}
+
+.fondo-chocolate {
+    padding: 10rem 0 5rem 0;
+
+    img {
+        width: 100%;
+    }
+}
+
+.maps-title {
+    text-align: center;
+}
+.maps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    padding: 5rem 10rem 5rem 10rem;
+    justify-content: center center;
+    
+    .iframe {
+        width: 100%;
+    }
+
+    .maps__mercado {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        p {
+            font-size: 1.5rem;
+            line-height: 1.5em;
+        }
+    }
+
+    .maps__belgrano {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        
+        p {
+            font-size: 1.5rem;
+            line-height: 1.5em;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.page-registrarse {
+    background-image: url(../img/chocolateria-san-gines-page-registrarse.png);
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 50rem;
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    
+    h1 {
+        padding: 1rem;
+        color: white;
+        padding-top: 5rem;
+        letter-spacing: 2px;
+        font-size: 3rem;
+        line-height: 1.2857142857em;
+        font-weight: 700;
+        align-self: center;
+    }
+}

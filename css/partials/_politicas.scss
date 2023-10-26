@@ -1,0 +1,13 @@
+.politicas {
+    background-image: url(../img/fondo-canva.png);
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+
+    .politicas__politicas {
+        width: 50rem;
+        padding: 5rem 1rem 5rem 1rem;
+        letter-spacing: 2px;
+        line-height: 2rem;
+    }
+}

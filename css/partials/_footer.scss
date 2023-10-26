@@ -1,0 +1,112 @@
+@mixin flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: $secondarycolor; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "nuestros-datos   footer__contactanos";
+    grid-gap: 2rem;
+
+    .nuestros-datos {
+        grid-area: nuestros-datos;
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 0 3rem 0;
+
+        h2 {
+            text-align: center;
+        }
+
+        .contenedor-imgLogo {
+            @include flex-center-center;
+            padding: 4rem 0 3rem 0;
+        }
+
+        .footer-links {
+            @include flex-center-center;
+            gap: 2rem;
+        }
+
+        .footer-email {
+            @include flex-center-center;
+            padding: 4rem;
+            font-size: 1.5rem;
+
+            i {
+                padding: .5rem;
+                font-size: 2rem;
+                align-items: center;
+            }
+        }
+    }
+
+    .footer__contactanos {
+        grid-area: footer__contactanos;
+        @include flex-center-center;
+        flex-direction: column;
+        padding: 5rem 0 3rem 0;
+    
+        h2 {
+            text-align: center;
+        }
+
+        .footer__contactanos-form {
+            display: flex;
+            flex-direction: column; 
+            width: 25rem;
+            padding: 2rem;
+            border-radius: 5px;
+    
+            input {
+                padding: .5rem;
+                border: none;
+                font-size: 1rem;
+                border-radius: 5px;
+                margin: .5rem;
+            }
+
+            textarea {
+                font-size: 1rem;
+                border: none;
+                border-radius: 5px;
+                margin: .5rem;
+            }
+
+            .contactanos-form__button {
+                background-color: $chocolatecolor;
+                color: white;
+                border: none;
+                padding: 1rem;
+                font-size: 1rem;
+                border-radius: 5px;
+
+                &:active {
+                    background-color: white;
+                    color: $chocolatecolor;
+                }
+            }
+        }
+    }
+}
+
+.copyright {
+    background-color: $headercolor;
+    color: white;
+    padding: 1rem;
+    letter-spacing: 1px;
+    @include flex-center-center;
+    
+    a {
+        color: white; 
+    }
+
+    p {
+        margin: 0;
+    }
+}

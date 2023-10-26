@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    &::selection {
+        background-color: white;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+p { 
+    font-weight: 400;
+    font-size: 20px;
+
+    &::selection {
+        background-color: $secondarycolor;
+    }
+}
+a {
+    text-decoration: none;
+    color: $chocolatecolor;
+    
+    &::selection {
+        background-color: $secondarycolor;
+    }
+}
+.frase-inspiradora {
+    h3 {
+        &::selection {
+            background-color: $chocolatecolor;
+        }
+    }
+} 
+body {
+    font-family: $fontYantramanav;
+    font-size: 13px;
+    line-height: 23px;
+    color: $chocolatecolor;
+    background-color: $bodycolor;
+}
+h1,
+h2 {
+    font-size: 40px;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 40px;
+    line-height: 1.285714285714286em;
+    font-weight: 700;
+}
+h4 {
+    font-size: 30px;
+    line-height: 1.538461538461538em
+}
+h5 {
+    font-size: 18px;
+    line-height: 1.444444444444444em
+}
+h6 {
+    font-size: 14px;
+    line-height: 1.571428571428571em;
+    font-weight: 400;
+}
+.instagram-icon {
+    display: flex;  
+}
+.facebook-icon {
+    color: #1877f2;
+    font-size: 2rem;
+}
+.cart-icon {
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.linkedin-icon {
+    color: #0a66c2;
+    font-size: 2rem;
+}

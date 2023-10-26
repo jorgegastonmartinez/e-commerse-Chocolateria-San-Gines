@@ -1,0 +1,43 @@
+.header-top {
+    width: 100%;
+    display: flex;
+    background-color: $headercolor;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem 1rem 2rem;
+
+    .header-top__left {
+    display: flex;
+    gap: 1rem;
+    }
+
+    .header-top__right {
+    display: flex;
+    gap: 1rem;
+    align-items: center;   
+    }
+}
+.nav {
+    font-size: 1.2rem;
+    font-weight: 550; 
+    background-color: $secondarycolor; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem 0 0;
+
+    .nav__ul {
+        display: flex;
+        gap: 3rem;
+        list-style: none;
+    }
+
+    .nav__open {
+        display: none;
+    }
+
+    .nav__close {
+        display: none;
+    }
+}

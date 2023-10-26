@@ -1,0 +1,146 @@
+ul {
+    list-style: none;
+}
+.contenedor-carrito {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+.boton-volver {
+    font-family: "Yantramanav", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 550;
+    line-height: 23px;
+    display: flex;
+    gap: 1rem;
+    padding-top: 3rem;
+    padding-left: 5rem;
+}
+.carrito-vacio {
+    font-size: 2.5em;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: var(--bs-heading-color);
+    font-family: "Yantramanav", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.titulo-principal {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 3rem 3rem;
+}
+
+.carrito-productos {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: center;
+}
+.carrito-producto-imagen {
+    width: 6rem;
+}
+
+.carrito-producto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    color: $chocolatecolor;
+    border-radius: .5rem;
+    background-color: rgba(233, 233, 226, 0.62);
+}
+.carrito-producto-eliminar {
+    border: 0;
+    font-size: 1.5rem;
+    background-color: transparent; 
+    cursor: pointer;
+    color: $chocolatecolor;
+
+    &:active {
+        color: white;
+    }
+}
+
+.carrito-acciones { 
+    display: flex;
+    justify-content: space-between;
+    
+    .carrito-acciones-izquierda {
+        display: flex;
+        padding-left: 2rem;
+
+        .carrito-acciones-total {
+            display: flex;
+            gap: .5rem;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1rem;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            padding: 1rem;
+            color: $chocolatecolor;
+            border-radius: .5rem;
+            background-color: rgba(233, 233, 226, 0.62);
+        }
+
+        .carrito-acciones-comprar {
+            border: 0;
+            background-color: $chocolatecolor;
+            color: white;
+            border-radius: 5px;
+            padding: 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border: 2px solid white;
+            transition: background-color 0.5s, color 0.5s;
+
+            &:hover {
+                background-color: white;
+                color: $chocolatecolor;
+            }
+        }
+    }
+
+    .carrito-acciones-derecha {
+        display: flex;
+        padding-right: 2rem;
+
+        .carrito-acciones-vaciar {
+            border: 0;
+            border-radius: 1rem;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            cursor: pointer;
+            color: $chocolatecolor;
+            border-radius: .5rem;
+            background-color: rgba(233, 233, 226, 0.62);
+
+            &:active {
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+.carrito-comprado {
+    font-size: 2.5em;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: var(--bs-heading-color);
+    font-family: "Yantramanav", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.disabled {
+    display: none;
+}
