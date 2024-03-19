@@ -1,9 +1,6 @@
 # Título del Proyecto
 
-Entrega Final.
-Curso Javascript.
-Comisión 47060.
-
+E-commerse de la Chocolateria San Gines
 
 # Autor
 
@@ -12,13 +9,13 @@ Jorge Martinez.
 
 # Documentación
 
-* Html y css completos.
+* Html, CSS Y JavaScript.
 * Uso de funciones flechas, funciones de orden superior, manejo y modificación del DOM, JSON, Storage, método fetch, async, await, objetos, arrays y librerías.
 
 
 # Sobre mi proyecto
 
-Este proyecto es una pagina web de la chocolatería San Gines. 
+Este proyecto es un e-commerse de la chocolatería San Gines. 
 Contiene:
 1. Menu hamburger, que utilice para hacerlo responsive. 
 2. Tienda para realizar un pedido de productos, a través de botones que agregan el pedido a un carrito.
