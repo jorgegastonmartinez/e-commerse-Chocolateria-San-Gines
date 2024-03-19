@@ -1,0 +1,148 @@
+[
+    {
+        "id": "bocata-de-tortilla",       
+        "titulo": "BOCATA DE TORTILLA",    
+        "descripcion": "baguette, tortilla de papas, alioli y tomates secos", 
+        "imagen": "../img/bocata-de-tortilla.jpg",   
+        "categoria": {         
+            "nombre": "Almuerzo y Cena",
+            "id": "almuerzoYCena"
+        },
+        "precio": 1800  
+    },
+    {
+        "id": "bocata-de-atun",
+        "titulo": "BOCATA DE ATÚN",
+        "descripcion": "baguette, atún, rúcula, pepinillos agridulces, pesto y tomate natural",
+        "imagen": "../img/bocata-de-atun.jpg",
+        "categoria": {
+            "nombre": "Almuerzo y Cena",
+            "id": "almuerzoYCena"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "ensalada-vegetariana",
+        "titulo": "ENSALADA VEGETARIANA",
+        "descripcion": "mix de hojas verdes, vinagreta,atún, tomate, huevo, pepinillos agridulces y aceitunas",
+        "imagen": "../img/ensalada-vegeta.jpg",
+        "categoria": {
+            "nombre": "Almuerzo y Cena",
+            "id": "almuerzoYCena"
+        },
+        "precio": 1600
+    },
+    {
+        "id": "bocata-de-pollo",
+        "titulo": "BOCATA DE POLLO",
+        "descripcion": "baguette, pollo asado,rúcula, queso con hierbas y tomates secos",
+        "imagen": "../img/bocata-de-pollo.jpg",
+        "categoria": {
+            "nombre": "Almuerzo y Cena",
+            "id": "almuerzoYCena"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "bocata-vegeta",
+        "titulo": "BOCATA VEGETARIANO",
+        "descripcion": "baguette, berenjena, zucchini, queso, rúcula y pesto",
+        "imagen": "../img/bocata-vegeta.jpg",
+        "categoria": {
+            "nombre": "Almuerzo y Cena",
+            "id": "almuerzoYCena"
+        },
+        "precio": 1700
+    }, 
+    {
+        "id": "bocata-jamon-crudo",
+        "titulo": "BOCATA DE JAMON CRUDO",
+        "descripcion": "baguette, jamón crudo, queso, rúcula, pesto y tomates secos",
+        "imagen": "../img/bocata-jamon-crudo.jpg",
+        "categoria": {
+            "nombre": "Almuerzo y Cena",
+            "id": "almuerzoYCena"
+        },
+        "precio": 2000
+    },    
+
+    {
+        "id": "cappuccino",
+        "titulo": "CAPPUCCINO",
+        "descripcion": "café espresso, leche texturizada, cacao y canela",
+        "imagen": "../img/cappuccino.jpg",
+        "categoria": {
+            "nombre": "Cafetería",
+            "id": "cafeteria"
+        },
+        "precio": 800
+    },
+    {
+        "id": "latte",
+        "titulo": "LATTE",
+        "descripcion": "café espresso y leche texturizada",
+        "imagen": "../img/latte.jpg",
+        "categoria": {
+            "nombre": "Cafetería",
+            "id": "cafeteria"
+        },
+        "precio": 900
+    },
+
+    {
+        "id": "churros-y-chocolate",
+        "titulo": "CHURROS Y CHOCOLATE",
+        "descripcion": "3 churros y chocolate San Ginés",
+        "imagen": "../img/combo-churros-choco.jpg",
+        "categoria": {
+            "nombre": "Churrería",
+            "id": "churreria"
+        },
+        "precio": 1500
+    },
+    {
+        "id": "combo-mix",
+        "titulo": "MIX Y CHOCOLATE",
+        "descripcion": "2 churros, 1 porra y chocolate San Ginés",
+        "imagen": "../img/combo-mix.jpg",
+        "categoria": {
+            "nombre": "Churrería",
+            "id": "churreria"
+        },
+        "precio": 1500
+    },
+
+    {
+        "id": "desayuno-argentino",
+        "titulo": "DESAYUNO ARGENTINO",
+        "descripcion": "café latte, tostadas de pan, dulce de leche y manteca",
+        "imagen": "../img/desayuno-argentino.jpg",
+        "categoria": {
+            "nombre": "Desayuno Y Merienda",
+            "id": "desayunoYMerienda"
+        },
+        "precio": 1700
+    },
+    {
+        "id": "cafe-con-leche-y-medialunas",
+        "titulo": "CAFÉ CON LECHE Y MEDIALUNAS",
+        "descripcion": "café latte y 2 medialunas de manteca",
+        "imagen": "../img/cafe-con-leche-y-medialunas.jpg",
+        "categoria": {
+            "nombre": "Desayuno Y Merienda",
+            "id": "desayunoYMerienda"
+        },
+        "precio": 1900
+    },
+    {
+        "id": "TOSTADAS CON QUESO Y MERMELADA",
+        "titulo": "CAFÉ CON LECHE Y MEDIALUNAS",
+        "descripcion": "tostadas de baguette integral, queso crema y mermelada",
+        "imagen": "../img/tostadas-con-queso-mermelada.jpg",
+        "categoria": {
+            "nombre": "Desayuno Y Merienda",
+            "id": "desayunoYMerienda"
+        },
+        "precio": 1900
+    }
+]

@@ -1,5 +1,3 @@
-// 1. MENU HAMBURGUESA
-
 const navburger = document.querySelector("#navburger");
 const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");

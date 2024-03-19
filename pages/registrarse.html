@@ -23,8 +23,8 @@
         <img src="../img/japonFlag.jpg" width="50" alt="Bandera de Japon">
       </div>
       <div class="header-top__right">
-        <a href="./checkOut.html" class="cart-icon">
-          <i class="bi bi-cart4"></i>
+        <a href="./carrito.html" class="cart-icon">
+          <i class="bi bi-cart4"></i><span id="numerito-carrito" class="numerito_carrito"></span>
         </a>
         <a href="https://www.instagram.com/sanginesargentina/" class="instagram-icon" target="_blank">
           <img src="../img/instagram.png" width="32" alt="logo de instagram">
@@ -80,26 +80,29 @@
       <div class="logo__ingresar">
         <img src="../img/logotipo-san-gines.png" alt="Logo San Ginés"> 
       </div>
-      <!-- formulario de bootstrap -->
-      <form class="formulario-bootstrap">
+      <form id="formularioRegistrarse" class="formulario-bootstrap">
         <div class="mb-3 form-text-edit">
-          <label for="exampleInputEmail1" class="form-label">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie.</div>
+          <label id="labelNombreUsuario1" for="nombreUsuario" class="form-label">Nombre</label>
+          <input placeholder="Ingrese su nombre" type="text" class="form-control" id="nombreUsuario">
         </div>
         <div class="mb-3 form-text-edit">
-          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <label id="labelApellidoUsuario1" for="apellidoUsuario" class="form-label">Apellido</label>
+          <input placeholder="Ingrese su apellido" type="text" class="form-control" id="apellidoUsuario">
         </div>
         <div class="mb-3 form-text-edit">
-          <label for="exampleInputPassword1" class="form-label">Repetir Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <label id="labelEmailUsuario" for="emailUsuario" class="form-label">Email</label>
+          <input placeholder="Ingrese su email" type="email" class="form-control" id="emailUsuario" aria-describedby="emailHelp">
         </div>
-        <div class="mb-3 form-check form-text-edit">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        <div class="mb-3 form-text-edit">
+          <label id="labelContrasenaUsuario" for="contrasenaUsuario" class="form-label">Crear una contraseña</label>
+          <input placeholder="Ingrese una contraseña" type="password" class="form-control" id="contrasenaUsuario">
+        </div>
+        <div class="mb-3 form-text-edit">
+          <label id="labelRepetirContrasenaUsuario" for="repetirContrasenaUsuario" class="form-label">Repetir Contraseña</label>
+          <input placeholder="Escriba nuevamente la contraseña" type="password" class="form-control" id="repetirContrasenaUsuario">
         </div>
         <button type="submit" class="btn btn-primary button-edit">Registrarme</button>
+        <button type="reset" class="btn btn-outline-secondary me-1">Vaciar</button>
       </form>
     </section>
   </main>
@@ -111,12 +114,11 @@
       </div>
     </section>
   </footer>
-  <!-- archivos javaScript -->
-  <script src="../js/main.js"></script>
   <script src="../js/menu.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+  
 </body>
 </html>

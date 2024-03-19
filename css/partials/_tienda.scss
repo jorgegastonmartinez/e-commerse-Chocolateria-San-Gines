@@ -27,6 +27,17 @@
             padding: .5rem;
         }
 }
+.cart-icon {
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    gap: .2rem;
+
+    .numerito_carrito {
+        color: whitesmoke;
+        font-size: 1.7rem;
+    }
+}
 
 .title-tienda {
     margin: 5rem 0 2rem 4rem;
